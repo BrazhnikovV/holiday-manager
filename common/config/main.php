@@ -16,6 +16,13 @@ return [
                     'basePath' => '@yii2mod/rbac/messages',
                 ],
             ],
-        ]
+        ],
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=holiday-manager',
+            'username' => 'vasek',
+            'password' => '34rt12wecfdf',
+            'charset' => 'utf8',
+        ],
     ],
 ];
